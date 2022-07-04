@@ -150,7 +150,7 @@ export default function Home() {
           pokemonPerPage={pokemonPerPage}
           totalpokemon={totalpokemon.length}
           paginado={paginado}
-          />
+          /> 
 
         {currentPokemons ? (
           currentPokemons.map((pokemon) => {

@@ -36,7 +36,7 @@ export default function Details(){
                         <h1 className="pokemon-name">{myPokemon[0].name}</h1>
                     <h3 className="pokemon-type">{!myPokemon[0].createdInDb? myPokemon[0].types : myPokemon[0].types.map(e => e.name + (' '))}</h3>
                    <div className="pokemon-stats">
-                    <h4>Id: {myPokemon[0].id}</h4>
+                    <h4>Id: {myPokemon[0].id}</h4> 
                     <h4>Hp: {myPokemon[0].hp}</h4>
                     <h4>Attack: {myPokemon[0].attack}</h4>
                     <h4>Defense: {myPokemon[0].defense}</h4>

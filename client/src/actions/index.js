@@ -80,7 +80,7 @@ export function filterPokemonsByType(payload) {
   };
 }
 export function filterCreated(payload) {
-  return {
+  return { 
     type: "FILTER_CREATED",
     payload,
   };
