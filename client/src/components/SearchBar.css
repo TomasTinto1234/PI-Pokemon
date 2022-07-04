@@ -1,0 +1,27 @@
+input{
+    height: 28px;
+    width: 230px;
+    border: none;
+    border-radius:10px;
+    background-color:rgb(242, 242, 242);
+}
+
+.buttonsearc{
+    border:none;
+    border: none;
+    background-color: blue;
+    height: 44px;
+    width: 86px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    pointer-events: all;
+    margin-left: 4px;
+}
+
+.buttonsearc:hover{
+    background-color: red;
+    -webkit-transform:scale(1.05);transform:scale(1.05);
+}

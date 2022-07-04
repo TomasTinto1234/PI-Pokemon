@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.select {
+  margin: 20 50px;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 25px;
+  border:none;
+  background: #2f8388;
+  color: rgba(255, 255, 255, .4)
+
+}
+.select:hover{
+  background-color: gray;
+  -webkit-transform:scale(1.05);transform:scale(1.05);
+  cursor: pointer;
+}
+
+.unica-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
